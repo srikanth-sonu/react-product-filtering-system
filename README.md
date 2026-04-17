@@ -1,16 +1,43 @@
-# React + Vite
+# 🔍 React Product Filtering System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance frontend application built using React that demonstrates real-world product filtering behavior with optimized rendering and URL-based state persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+(Will add after deployment)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+- Multi-criteria filtering (category, stock availability)
+- Debounced search for optimized performance
+- URL query parameter synchronization (state persistence)
+- Sorting functionality (price low → high, high → low)
+- Clear filters functionality
+- Responsive and clean UI design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Key Concepts Implemented
+
+- React Hooks (useState, useEffect, useMemo)
+- Custom Hook (Debounce)
+- URL State Management using React Router
+- Derived State Pattern
+- Component Reusability & Optimization (React.memo)
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- React Router
+- Vite
+
+---
+
+## 📂 Project Structure
